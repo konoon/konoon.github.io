@@ -1,0 +1,672 @@
+/* (min-width 媛�濡� �빐�긽�룄媛� 576px 蹂대떎 �겙 �솕硫댁뿉 �쟻�슜) and  (max-width 媛�濡� �빐�긽�룄媛� 767px �옉�� �솕硫댁뿉 �쟻�슜) */
+@media ( min-width : 375px) and (max-width: 575px) {
+	/* �뿤�뜑 */
+	.missing_wrapper {
+		width: 100% !important;
+		margin: 0 auto !important;
+	}
+
+	/* �뿤�뜑�럹�씠吏� */
+	.missing_page {
+		margin-left: 0 !important;
+	}
+
+	.n1{
+		width: 18% !important;
+		display: inline-block !important;
+	}
+	
+	.n2{
+		width: 18% !important;
+		display: inline-block !important;
+	}	
+	
+	.n3{
+		width: 18% !important;
+		display: inline-block !important;
+	}
+	
+	.n4{
+		width: 35% !important;
+		display: inline-block !important;
+	}
+	
+	.n5{
+		width: 35% !important;
+		display: inline-block !important;
+	}	
+	
+	.n6{
+		width: 33% !important;
+		display: inline-block !important;
+	}
+	
+	.n7{
+		width: 32% !important;
+		display: inline-block !important;
+	}
+	
+	.n8{
+		width: 58% !important;
+		display: inline-block !important;
+	}
+	
+	.n9{
+		width: 74% !important;
+		display: inline-block !important;
+	}
+	
+	.n10{
+		width: 25% !important;
+		display: inline-block !important;
+	}
+	
+	.n11{
+		width: 25% !important;
+		display: inline-block !important;
+	}
+	.box1, .box2, .box3, .box4 {
+		margin: 1px !important;
+	}
+}
+
+/* (min-width 媛�濡� �빐�긽�룄媛� 576px 蹂대떎 �겙 �솕硫댁뿉 �쟻�슜) and  (max-width 媛�濡� �빐�긽�룄媛� 767px �옉�� �솕硫댁뿉 �쟻�슜) */
+@media ( min-width : 576px) and (max-width: 767px) {
+	/* �뿤�뜑 */
+	.missing_wrapper {
+		width: 75% !important;
+		margin: 0 auto !important;
+	}
+	/* �뿤�뜑�럹�씠吏� */
+	.missing_page {
+		margin-left: 0 !important;
+	}
+
+	.n1{
+		width: 15% !important;
+		display: inline-block !important;
+	}
+	
+	.n2{
+		width: 15% !important;
+		display: inline-block !important;
+	}	
+	
+	.n3{
+		width: 15% !important;
+		display: inline-block !important;
+	}
+	
+	.n4{
+		width: 36% !important;
+		display: inline-block !important;
+	}
+	
+	.n5{
+		width: 36% !important;
+		display: inline-block !important;
+	}	
+	
+	.n6{
+		width: 32% !important;
+		display: inline-block !important;
+	}
+	
+	.n7{
+		width: 36% !important;
+		display: inline-block !important;
+	}
+	
+	.n8{
+		width: 20% !important;
+		display: inline-block !important;
+	}
+	
+	.n9{
+		width: 20% !important;
+		display: inline-block !important;
+	}
+	
+	.n10{
+		width: 25% !important;
+		display: inline-block !important;
+	}
+	
+	.n11{
+		width: 29% !important;
+		display: inline-block !important;
+	}
+	.box1, .box2, .box3, .box4 {
+		margin: 1px !important;
+	}
+}
+
+/* (min-width 媛�濡� �빐�긽�룄媛� 768px 蹂대떎 �겙 �솕硫댁뿉 �쟻�슜) and  (max-width 媛�濡� �빐�긽�룄媛� 991px �옉�� �솕硫댁뿉 �쟻�슜) */
+@media ( min-width : 768px) and (max-width: 991px) {
+	/* �뿤�뜑 */
+	.missing_wrapper {
+		width: 60% !important;
+		margin: 0 auto !important;
+	}
+	/* �뿤�뜑�럹�씠吏� */
+	.missing_page {
+		margin-left: 0 !important;
+	}
+
+	.n1{
+		width: 25% !important;
+		display: inline-block !important;
+	}
+	
+	.n2{
+		width: 15% !important;
+		display: inline-block !important;
+	}	
+	
+	.n3{
+		width: 25% !important;
+		display: inline-block !important;
+	}
+	
+	.n4{
+		width: 13% !important;
+		display: inline-block !important;
+	}
+	
+	.n5{
+		width: 13% !important;
+		display: inline-block !important;
+	}	
+	
+	.n6{
+		width: 13% !important;
+		display: inline-block !important;
+	}
+	
+	.n7{
+		width: 13% !important;
+		display: inline-block !important;
+	}
+	
+	.n8{
+		width: 25% !important;
+		display: inline-block !important;
+	}
+	
+	.n9{
+		width: 25% !important;
+		display: inline-block !important;
+	}
+	
+	.n10{
+		width: 30% !important;
+		display: inline-block !important;
+	}
+	
+	.n11{
+		width: 31% !important;
+		display: inline-block !important;
+	}
+	.box1, .box2, .box3, .box4 {
+		margin: 1px !important;
+	}
+}
+
+
+@media ( min-width : 761px) and (max-width: 869px) {
+	.n4 {
+		width: 35% !important;
+		display: inline-block !important;
+	}
+	.n5{
+		width: 37% !important;
+		display: inline-block !important;
+	}	
+	
+}
+
+@media ( min-width : 870px) and (max-width: 990px) {
+	.n4{
+		width: 38% !important;
+		display: inline-block !important;
+	}
+	
+	.n5{
+		width: 40% !important;
+		display: inline-block !important;
+	}	
+	
+	.n6{
+		width: 36% !important;
+		display: inline-block !important;
+	}
+	
+	.n7{
+		width: 38% !important;
+		display: inline-block !important;
+	}
+	.n8{
+		width: 20% !important;
+		display: inline-block !important;
+	}
+	
+	.n9{
+		width: 24% !important;
+		display: inline-block !important;
+	}
+}
+
+@media ( min-width : 660px) and (max-width: 991px) {
+	.n1{
+		width: 22% !important;
+		display: inline-block !important;
+	}
+	
+	.n2{
+		width: 12% !important;
+		display: inline-block !important;
+	}	
+	
+	.n3{
+		width: 26% !important;
+		display: inline-block !important;
+	}
+} 
+
+/* (min-width 媛�濡� �빐�긽�룄媛� 992px 蹂대떎 �겙 �솕硫댁뿉 �쟻�슜) and  (max-width 媛�濡� �빐�긽�룄媛� 1199px �옉�� �솕硫댁뿉 �쟻�슜) */
+@media ( min-width : 992px) and (max-width: 1199px) {
+	/* �뿤�뜑 */
+	.missing_wrapper {
+		width: 60% !important;
+		margin: 0 auto !important;
+	}
+	/* �뿤�뜑�럹�씠吏� */
+	.missing_page {
+		margin-left: 0 !important;
+	}
+
+		
+	.n1{
+		width: 25% !important;
+		display: inline-block !important;
+	}
+	
+	.n2{
+		width: 15% !important;
+		display: inline-block !important;
+	}	
+	
+	.n3{
+		width: 30% !important;
+		display: inline-block !important;
+	}
+	
+	.n4{
+		width: 13% !important;
+		display: inline-block !important;
+	}
+	
+	.n5{
+		width: 13% !important;
+		display: inline-block !important;
+	}	
+	
+	.n6{
+		width: 15% !important;
+		display: inline-block !important;
+	}
+	
+	.n7{
+		width: 16% !important;
+		display: inline-block !important;
+	}
+	
+	.n8{
+		width: 27% !important;
+		display: inline-block !important;
+	}
+	
+	.n9{
+		width: 28% !important;
+		display: inline-block !important;
+	}
+	
+	.n10{
+		width: 33% !important;
+		display: inline-block !important;
+	}
+	
+	.n11{
+		width: 33% !important;
+		display: inline-block !important;
+	}
+	.box1, .box2, .box3, .box4 {
+		margin: 4px !important;
+	}
+}
+
+/* (min-width 媛�濡� �빐�긽�룄媛� 1200px 蹂대떎 �겙 �솕硫댁뿉 �쟻�슜) and  (max-width 媛�濡� �빐�긽�룄媛� 1399px �옉�� �솕硫댁뿉 �쟻�슜) */
+@media ( min-width : 1200px) and (max-width: 1399px) {
+	/* �뿤�뜑 */
+	.missing_wrapper {
+		width: 60% !important;
+		margin: 0 auto !important;
+	}
+
+	/* �뿤�뜑�럹�씠吏� */
+	.missing_page {
+		margin-left: 0 !important;
+	}
+
+	.n1{
+		width: 27% !important;
+		display: inline-block !important;
+	}
+	
+	.n2{
+		width: 15% !important;
+		display: inline-block !important;
+	}	
+	
+	.n3{
+		width: 33% !important;
+		display: inline-block !important;
+	}
+	
+	.n4{
+		width: 14% !important;
+		display: inline-block !important;
+	}
+	
+	.n5{
+		width: 14% !important;
+		display: inline-block !important;
+	}	
+	
+	.n6{
+		width: 18% !important;
+		display: inline-block !important;
+	}
+	
+	.n7{
+		width: 18% !important;
+		display: inline-block !important;
+	}
+	
+	.n8{
+		width: 31% !important;
+		display: inline-block !important;
+	}
+	
+	.n9{
+		width: 32% !important;
+		display: inline-block !important;
+	}
+	
+	.n10{
+		width: 36% !important;
+		display: inline-block !important;
+	}
+	
+	.n11{
+		width: 36% !important;
+		display: inline-block !important;
+	}
+	.box1, .box2, .box3, .box4 {
+		margin: 7px !important;
+		padding-right: 20px;
+	}
+}
+
+/* (min-width 媛�濡� �빐�긽�룄媛� 1400px 蹂대떎 �겙 �솕硫댁뿉 �쟻�슜) and  (max-width 媛�濡� �빐�긽�룄媛� 1532px �옉�� �솕硫댁뿉 �쟻�슜) */
+@media ( min-width : 1400px) and (max-width: 1532px) {
+	/* �뿤�뜑 */
+	.missing_wrapper {
+		width: 60% !important;
+		margin: 0 auto !important;
+	}
+
+	/* �뿤�뜑�럹�씠吏� */
+	.missing_page {
+		margin-left: 0 !important;
+	}
+
+	.n1{
+		width: 27% !important;
+		display: inline-block !important;
+	}
+	
+	.n2{
+		width: 15% !important;
+		display: inline-block !important;
+	}	
+	
+	.n3{
+		width: 36% !important;
+		display: inline-block !important;
+	}
+	
+	.n4{
+		width: 15% !important;
+		display: inline-block !important;
+	}
+	
+	.n5{
+		width: 15% !important;
+		display: inline-block !important;
+	}	
+	
+	.n6{
+		width: 20% !important;
+		display: inline-block !important;
+	}
+	
+	.n7{
+		width: 20% !important;
+		display: inline-block !important;
+	}
+	
+	.n8{
+		width: 34% !important;
+		display: inline-block !important;
+	}
+	
+	.n9{
+		width: 35% !important;
+		display: inline-block !important;
+	}
+	
+	.n10{
+		width: 36% !important;
+		display: inline-block !important;
+	}
+	
+	.n11{
+		width: 40% !important;
+		display: inline-block !important;
+	}
+	.box1, .box2, .box3, .box4 {
+		margin: 9px;
+	}
+}
+
+/* (min-width 媛�濡� �빐�긽�룄媛� 1600px 蹂대떎 �겙 �솕硫댁뿉 �쟻�슜) and  (max-width 媛�濡� �빐�긽�룄媛� 1799px �옉�� �솕硫댁뿉 �쟻�슜) */
+@media ( min-width : 1533px) and (max-width: 1799px) {
+	/* �뿤�뜑 */
+	.missing_wrapper {
+		width: 60% !important;
+		margin: 0 auto !important;
+	}
+
+	/* �뿤�뜑�럹�씠吏� */
+	.missing_page {
+		margin-left: 0 !important;
+	}
+
+	.n1{
+		width: 27% !important;
+		display: inline-block !important;
+	}
+	
+	.n2{
+		width: 17% !important;
+		display: inline-block !important;
+	}	
+	
+	.n3{
+		width: 40% !important;
+		display: inline-block !important;
+	}
+	
+	.n4{
+		width: 15% !important;
+		display: inline-block !important;
+	}
+	
+	.n5{
+		width: 15% !important;
+		display: inline-block !important;
+	}	
+	
+	.n6{
+		width: 20% !important;
+		display: inline-block !important;
+	}
+	
+	.n7{
+		width: 20% !important;
+		display: inline-block !important;
+	}
+	
+	.n8{
+		width: 35% !important;
+		display: inline-block !important;
+	}
+	
+	.n9{
+		width: 38% !important;
+		display: inline-block !important;
+	}
+	
+	.n10{
+		width: 40% !important;
+		display: inline-block !important;
+	}
+	
+	.n11{
+		width: 40% !important;
+		display: inline-block !important;
+	}
+	.box1, .box2, .box3, .box4 {
+		margin: 9px;
+	}
+}
+
+@media ( min-width : 1800px) {
+	/* �뿤�뜑 */
+	.missing_wrapper {
+		width: 60% !important;
+		margin: 0 auto !important;
+	}
+	
+	/* �뿤�뜑�럹�씠吏� */
+	.missing_page {
+		margin-left: 0 !important;
+	}
+			
+	.n1{
+		width: 27% !important;
+		display: inline-block !important;
+	}
+	
+	.n2{
+		width: 18% !important;
+		display: inline-block !important;
+	}	
+	
+	.n3{
+		width: 41% !important;
+		display: inline-block !important;
+	}
+	
+	.n4{
+		width: 15% !important;
+		display: inline-block !important;
+	}
+	
+	.n5{
+		width: 15% !important;
+		display: inline-block !important;
+	}	
+	
+	.n6{
+		width: 20% !important;
+		display: inline-block !important;
+	}
+	
+	.n7{
+		width: 20% !important;
+		display: inline-block !important;
+	}
+	
+	.n8{
+		width: 34% !important;
+		display: inline-block !important;
+	}
+	
+	.n9{
+		width: 38% !important;
+		display: inline-block !important;
+	}
+	
+	.n10{
+		width: 40% !important;
+		display: inline-block !important;
+	}
+	
+	.n11{
+		width: 40% !important;
+		display: inline-block !important;
+	}
+	.box1, .box2, .box3, .box4 {
+		margin: 9px;
+	}
+}
+
+.miwriter{
+	margin-top: 5px;
+}
+
+.mi{
+	border: solid 1px #ccc;
+	margin: 5px -5px 5px 5px;
+	padding-left: 20px;
+}
+
+.missingbno{
+	display: none;
+}
+
+.form-control{
+	margin: 0 5px;	
+}
+
+.box1, .box2, .box3, .box4 {
+		margin: 9px;
+	}
+	
+
+/* �뀒�씠釉� css 異붽� */
+#miss_table {
+	width: 100%;
+}
+
+#miss_table td {
+	width: 25%;
+	padding: 0 4px;
+}
+
+.missing_list_font_size td {
+    text-align: center !important;
+    vertical-align: middle !important;
+}
