@@ -35,7 +35,7 @@ public class CommonController {
       model.addAttribute("msg", "Access Denied");
    }
    
-   // Page631 소스 코딩 : loginInput() 메서드는 GET방식으로 접근하고,
+   // Page631 소스 코딩 : loginInput() 메서드는 GET방식으로 접근하고
    // 에러 메시지와 로그아웃 메시지를 파라미터로 사용할 수 있습니다.
    // 이제, views 폴더에 customLogin jsp 파일을 추가해 줍니다.
    @GetMapping("/customLogin")
