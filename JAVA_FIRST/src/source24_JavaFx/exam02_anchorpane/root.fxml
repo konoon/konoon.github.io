@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<!-- 소스 코드 정렬 처리 이클립스 단축키 : CTRL + SHIFT + F -->
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" prefHeight="150.0" prefWidth="300.0">  
+<!-- AnchorPane에 포함될 컨트롤은 <children> 태그의 자식 태그로 선언되는데,
+     <children>은 AnchorPane의 setChildren() 메서드를 호출하는 것이 아니라,
+     getChildren() 메서드가 리턴하는 ObservableList 컬렉션에 <children>의 자식 태그로
+     정의된 컨트롤을 추가하는 역할을 합니다.  AnchorPane에서만 <children> 태그를
+     사용하는 것이 아니라, 거의 모든 컨테이너에서 사용하기 때문에 잘 이해할 필요가 있습니다.
+     AnchorPane을 사용해서 컨트롤을 좌표로 배치하면 윈도우 창이 줄거나 늘어날 경우
+     컨트롤의 재배치가 일어나지 않습니다. 따라서, AnchorPane으로 배치할 경우에는
+    윈도우 창의 크기를 변경할 수 없도록 Stage의 setResizable(false);메서드를 호출하는 것이 좋습니다.  -->
+	<children>  <!--  자식 컨트롤 추가 -->
+	<Label layoutX="42.0" layoutY="28.0" text="아이디" />
+	<Label layoutX="42.0" layoutY="66.0" text="패스워드" />
+	<TextField layoutX = "120.0" layoutY = "24.0" />
+	<PasswordField layoutX="120.0" layoutY="62.0" />
+	<Button layoutX="97.0" layoutY="106.0" text="로그인" />
+	<Button layoutX="164.0" layoutY="106.0" text="취소" />
+	</children>
+</AnchorPane>
+

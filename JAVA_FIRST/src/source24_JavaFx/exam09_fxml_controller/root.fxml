@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<!-- 소스 코드 정렬 처리 이클립스 단축키 : CTRL + SHIFT + F -->
+
+<!-- fx:controller 속성과 컨트롤러 클래스 FXML 파일의 루트 태그에서 fx:controller 속성으로 컨트롤러를 
+	지정하면 UI 컨트롤러에서 발생하는 이벤트를 컨트롤러가 처리합니다. <루트컨테이너 xmlns:fx="http://javafx.com/fxml" 
+	fx:controller="packageName.ControllerName"> ... </루트컨테이너> -->
+
+<HBox xmlns:fx="http://javafx.com/fxml"
+	fx:controller="source24_JavaFx.exam09_fxml_controller.RootController"
+	prefHeight="50.0" prefWidth="300.0" alignment="CENTER" spacing="20.0">
+
+	<!-- 이벤트 처리 메서드 매핑 방법 (2) : 앞서 컨트롤러에서 EventHandler를 생성하지 않고도 바로 이벤트 처리 메서드와 
+		연결할 수 있는 방법이 있습니다. Button 컨트롤을 작성할 때 다음과 같이 onAction 속성값으로 "#메서드명"을 주면 내부적으로 
+		EventHandler 객체가 생성되기 때문에 컨트롤러에서는 해당 메서드만 작성하면 됩니다. [FXML 파일] <Button fx:id="btn" 
+		text="버튼" onAction="#handleBtnAction" /> [Controller 클래스] public void handleBtnAction(ActionEvent 
+		event) {...} -->
+
+	<!-- fx:id 속성과 @FXML 컨트롤 주입 컨트롤러는 이벤트 핸들러를 등록하기 위해서, 그리고 이벤트 처리 시 UI를 변경하기 
+		위해서 FXML 파일에 포함된 컨테이너 및 컨트롤의 참조가 필요합니다. 이를 위해서 FXML 파일에 포함된 컨트롤들은 fx:id 속성을 
+		가질 필요가 있습니다. -->
+	<children>
+		<Button fx:id="btn1" text="버튼1" />
+		<Button fx:id="btn2" text="버튼2" />
+		<Button fx:id="btn3" text="버튼3" />
+	</children>
+</HBox>

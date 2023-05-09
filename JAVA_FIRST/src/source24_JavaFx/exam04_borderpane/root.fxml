@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.control.Button?>
+<!-- 소스 코드 정렬 처리 이클립스 단축키 : CTRL + SHIFT + F -->
+
+<BorderPane xmlns:fx="http://javafx.com/fxml"
+	prefHeight="200.0" prefWidth="300.0">
+	<!-- 상기 BorderPane의 특징은 top, bottom, left, right에 컨트롤을 배치하지 않으면 center에 
+		배치된 컨트롤이 top, bottom, left, right까지 확장 됩니다. -->
+	<top>
+		<ToolBar>
+			<items>
+				<Button text="Button" />
+				<Button text="Button" />
+			</items>
+		</ToolBar>
+	</top>
+		<center>
+			<TextArea />
+		</center>
+
+		<bottom>
+			<BorderPane>
+				<center>
+					<TextField />
+				</center>
+				<right>
+					<Button text="Button" />
+				</right>
+			</BorderPane>
+		</bottom>
+</BorderPane>
+

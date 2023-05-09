@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<!-- 소스 코드 정렬 처리 이클립스 단축키 : CTRL + SHIFT + F -->
+
+<!-- StackPane은 컨트롤을 겹쳐 배치하는 컨테이너입니다. 흔히 카드 레이아웃이라고 하는데, 카드가 겹쳐 있는 것처럼 컨트롤도 
+	겹쳐질 수 있습니다. 본 예제에서는 두 개의 Image View를 StackPane에 겹치도록 배치했습니다. 하단 이미지는 설경이고 
+	상단 이미지는 투명한 배경을 가지고 있는 듀크입니다. 실행해보면 듀크와 설경이 하나의 이미지처럼 보이지만, 상하로 겹쳐 있습니다. -->
+
+<StackPane xmlns:fx="http://javafx.com/fxml">
+	<!-- hgap="10.0" : 수평 간격을 의미하며, vgap = "10.0"은 수직 간격을 의미함 -->
+
+	<children>
+		<ImageView fitWidth="500" fitHeight="300">
+			<!-- 위에서 fitWidth="500" fitHeight="300" 은 가로비와 세로비 상관없이 고정 길이로 설정함을 의미합니다. -->
+			<image>
+				<Image url="@images/snow.jpg" />
+			</image>
+		</ImageView>
+		<ImageView preserveRatio="true">
+			<!-- 위에서 preserveRatio="true"은 가로비와 세로비를 유지함을 적용합니다. -->
+			<image>
+				<Image url="@images/duke.gif" />
+			</image>
+		</ImageView>
+	</children>
+</StackPane>

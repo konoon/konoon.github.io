@@ -1,0 +1,23 @@
+package source04_add;
+
+import java.util.Scanner;
+
+public class Test01_01 {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		System.out.println("숫자를 입력해 주시기 바랍니다 ==> ");
+		int number = in.nextInt();
+		
+		if(number % 2 == 0) {
+			System.out.println("입력하신 숫자는 짝수 입니다.");
+		}
+		if(number % 2 == 1) {
+			System.out.println("입력하신 숫자는 홀수 입니다.");
+		}
+		System.out.println("프로그램을 종료합니다.");
+		in.close();
+
+	}
+
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- FXML은 XML 기반의 마크업 언어이며, 자바 코드의 패키지 선언과 매핑되는 FXML 태그는 <?import?> 입니다. 
+	<?import?> 태그를 작성하는 위치는 정해져 있는데, XML 선언 태그인 <?xml version="1.0" encoding="UTF-8"?>과 
+	루트 컨테이너 태그 사이입니다. -->
+
+<?import javafx.scene.layout.HBox?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Button?>
+
+<!-- 소스 코드 정렬 처리 이클립스 단축키 : CTRL + SHIFT + F -->
+
+<HBox xmlns:fx="http://javafx.com/fxml">  <!-- HBox 컨테이너 선언 (1) -->
+	<!-- 위의 (1)에서 루트 컨테이너인 HBox는 <HBox> 태그로 작성되고, fx 접두사에 대한 네임스페이스 선언 (xmlns:fx="http://javafx.com/fxml")이 
+		추가되어 있는 것을 볼 수 있습니다. 이것은 FXML 파일에 <fx:XXX> 형태의 태그 및 fx:xxx="값" 형태의 속성을 작성할 
+		수 있다는 뜻인데, 이러한 태그와 속성은 컨트롤 배치보다는 FXML 파일의 내부 처리에 사용됩니다. <클래스 fx:value="값"/>, 
+		<클래스 fx:constant="상수"/>, <클래스 fx:factory="정적메서드"> -->
+
+	<!-- 패딩(Padding)은 안쪽 여백을 말함. 참고로, 마진(Margin)은 바깥 여백을 말함. -->
+	<padding>  <!-- 안쪽 여백 설정 -->
+		<Insets top="10" right="10" bottom="10" left="10" />
+	</padding>
+	
+	<spacing> 10 </spacing>   <!-- 컨트롤간의 수평 간격 설정 -->
+	
+	<children>  <!--  자식 컨트롤 추가 -->
+		<TextField> <!-- TextField 선언 -->
+			<prefWidth>200</prefWidth> <!-- TextField의 폭 설정 -->
+		</TextField>
+	
+		<Button>		<!-- Button 컨트롤 선언 -->
+			<text>확인</text>  <!-- Button 글자 설정 -->
+		</Button>
+	</children>
+</HBox>
+
