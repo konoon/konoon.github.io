@@ -1,4 +1,4 @@
-package source28.Exam13;
+package source24_JavaFx.Exam13;
 
 import java.net.URL;
 import java.util.ResourceBundle;

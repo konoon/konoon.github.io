@@ -1,4 +1,4 @@
-package source28.Exam19;
+package source24_JavaFx.Exam19;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
