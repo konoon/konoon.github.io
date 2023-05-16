@@ -1,5 +1,4 @@
 /c_source/
-/debugex/
 /objectAid_source/
 /source01/
 /source02/
@@ -14,7 +13,6 @@
 /source07/
 /source07_add/
 /source07_enum/
-/source08/
 /source08_class_ex/
 /source08_constructor/
 /source08_method/
@@ -34,11 +32,11 @@
 /source16/
 /source17_lambda/
 /source18_streamapi/
-/source19_jsoup/
-/source20_versionup/
 /source21_memory/
-/source22_network/
 /source23_awtswing/
 /source24_JavaFx/
 /source25_jdbc/
 /study/
+/debugex/
+/source08/
+/source22_network/
