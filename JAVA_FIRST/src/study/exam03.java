@@ -24,7 +24,7 @@ public class exam03 {
 		
 		sold = 0;
 		int index = 0;
-		while (index <= 50) {
+		while (index < 50) {
 			index++;
 			System.out.println(index + "번 손님 음식 나왔습니다.");
 			
